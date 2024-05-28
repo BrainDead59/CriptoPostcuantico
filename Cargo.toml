@@ -1,0 +1,10 @@
+[package]
+name = "argyle"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.4"
+pqc_kyber = "0.7.1"
+pqc_dilithium = "0.2.0"
+pqc_sphincsplus = {version="0.2.0",features=["sha2","f128","simple"]}
